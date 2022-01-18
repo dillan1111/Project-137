@@ -8,7 +8,7 @@ export default class HomeScreen extends Component{
         super(props);
         this.state = {
             star_data : [],
-            url : "http://4992a0d3e404.ngrok.io/",
+            url : "http://localhost:5000/",
             dataSource: [],
             search: ""
         }
